@@ -1,5 +1,5 @@
 %%%%卷积操作%%%%
-img = imread('test.png');
+img = imread('./source/test.png');
 img = rgb2gray(img);
 img = double(img);
 kernel = [-1, 0, 1; -2, 0 ,2; -1, 0, 1];%输入卷积核

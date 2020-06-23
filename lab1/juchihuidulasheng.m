@@ -1,5 +1,5 @@
 % æ‚≥›ª“∂»¿≠…Ï
-img = imread('haze.jpg');
+img = imread('./haze.jpg');
 img = rgb2gray(img);
 fa0 = floor(min(min(img)));
 fb0 = floor(max(max(img)));

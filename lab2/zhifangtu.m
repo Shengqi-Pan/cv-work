@@ -1,7 +1,7 @@
 %%%%%%%%%%%%
 %直方图显示%
 %%%%%%%%%%%%
-img = imread('test.png');
+img = imread('./source/test.png');
 img = rgb2gray(img);
 [row, col] = size(img);%确定图像大小
 hd = zeros(1,256);

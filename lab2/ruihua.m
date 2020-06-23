@@ -1,5 +1,5 @@
 %%%%¾í»ı²Ù×÷%%%%
-img = imread('test.png');
+img = imread('./source/test.png');
 img = rgb2gray(img);
 img = double(img);
 kernel1 = [-1, 0, 1; -2, 0 ,2; -1, 0, 1];%SobelËã×Ó

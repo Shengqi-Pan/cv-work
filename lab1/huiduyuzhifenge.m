@@ -1,5 +1,5 @@
 % 灰度阈值分割
-img = imread('fruit.png');
+img = imread('./fruit.png');
 img = rgb2gray(img);
 
 % 显示原图像

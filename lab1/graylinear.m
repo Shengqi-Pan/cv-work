@@ -1,4 +1,4 @@
-img = imread('haze.jpg');
+img = imread('./source/haze.jpg');
 fa = min(min(img));
 fb = max(max(img));
 gb = 256;
