@@ -1,3 +1,4 @@
+% ¿ª·½±ä»»
 img = imread('haze.jpg');
 img = double(img);
 imgout = sqrt(img) / 16 .* 255;

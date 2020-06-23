@@ -1,3 +1,4 @@
+% ÏŞ·ù»Ò¶ÈÀ­Éì
 img = imread('haze.jpg');
 img = rgb2gray(img);
 fa = floor(min(min(img)) + 10);

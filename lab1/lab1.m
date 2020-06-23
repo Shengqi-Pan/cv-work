@@ -1,3 +1,4 @@
+% ƽ�Ʊ任
 img = imread('test_image.jpg');
  
 subplot(3, 1, 1);

@@ -1,3 +1,4 @@
+% Æ½·½±ä»»
 img = imread('haze.jpg');
 img = double(img);
 imgout = img .^ 2 / 256;
