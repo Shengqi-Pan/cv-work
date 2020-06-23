@@ -1,5 +1,5 @@
 %%%中值处理
-img = imread('zaosheng.png');
+img = imread('./source/zaosheng.png');
 img = rgb2gray(img);
 [row, col] = size(img);%确定图像大小
 window = 3;

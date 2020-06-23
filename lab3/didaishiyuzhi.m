@@ -1,5 +1,5 @@
 %%%迭代式阈值选择（二值分割）
-img = imread('dog.png');
+img = imread('./source/dog.png');
 img = rgb2gray(img);
 Th = mean(img( : ));            %将灰度均值设为初始阈值
 newTh = 0;

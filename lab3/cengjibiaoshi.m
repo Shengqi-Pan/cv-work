@@ -1,5 +1,5 @@
 %%%图像的层级表示
-img = imread('hasaki.png');
+img = imread('./source/hasaki.png');
 img = rgb2gray(img);
 [row, col] = size(img);       %确定图像大小
 imgsize = row;                %imgsizes是压缩后的大小

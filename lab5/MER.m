@@ -1,7 +1,7 @@
 %%%寻找图像最小外接矩形
 
 %%%先用迭代式阈值求法将图像变为二值图
-img = imread('test0.png');
+img = imread('./source/test0.png');
 img = rgb2gray(img);
 Th = mean(img( : ));            %将灰度均值设为初始阈值
 newTh = 0;

@@ -1,5 +1,5 @@
 %%%%阈值平滑%%%%
-img = imread('test.png');
+img = imread('./source/test.png');
 img = rgb2gray(img);
 img = double(img);
 [row, col] = size(img);     %确定图像大小

@@ -3,7 +3,7 @@ clear;
 close all;
 
 % ≥ı ºªØ
-rgbimg = imread('test.jpg');
+rgbimg = imread('./source/test.jpg');
 % figure;
 imshow(rgbimg);
 r = rgbimg(:, :, 1);

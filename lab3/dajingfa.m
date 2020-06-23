@@ -1,5 +1,5 @@
 %%%大津法（二值分割）
-img = imread('fruit.png');
+img = imread('./source/fruit.png');
 img = rgb2gray(img);
 bestg_k = 0;
 bestTh = mean(img( : ));        %设定灰度均值为初始阈值

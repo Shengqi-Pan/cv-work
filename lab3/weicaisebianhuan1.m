@@ -1,5 +1,5 @@
 %%%离散（查表）伪彩色变换
-img = imread('test.png');
+img = imread('./source/test.png');
 img = rgb2gray(img);
 [row, col] = size(img);       %确定图像大小
 imgout = zeros(row, col, 3);   %初始化输出图像

@@ -1,5 +1,5 @@
 %%%连续（分段函数）伪彩色变换
-img = imread('test.png');
+img = imread('./source/test.png');
 img = rgb2gray(img);
 img = double(img);            %必须转为double后再处理，否则会导致计算时数据溢出
 [row, col] = size(img);       %确定图像大小
